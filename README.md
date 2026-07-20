@@ -7,4 +7,5 @@ A small R package useful for calculating the BSI ( bare soil index), a normalize
 
 Formula:
 
-$` BSI = ((SWIR + RED) + (NIR + BLUE)) / ((SWIR + RED) − (NIR + BLUE)) `$
+$` BSI=\frac{((SWIR1+Red)−(NIR+Blue)}{(SWIR1+Red)+(NIR+Blue)} `$
+
