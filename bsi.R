@@ -8,7 +8,7 @@ bsi <- function(x, red, blue, nir, swir){
     stop("red, blue, NIR and SWIR layers should be indicated with a number")
   }
   
-  bsi = (x[[swir]] + x[[red]] + x[[nir]] + x[[blue]]) / ((x[[swir]] + x[[red]]) - (x[[nir]] + x[[blue]]))
+  bsi = ((x[[swir]] + x[[red]]) - (x[[nir]] + x[[blue]])) / ((x[[swir]] + x[[red]]) + (x[[nir]] + x[[blue]]))
  
   return(bsi)
   
