@@ -1,1 +1,4 @@
-
+Package: bsi
+Type: Package
+Title: Provides a fast way to calculate BSI index 
+Author: Nicola Arcangeli
